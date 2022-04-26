@@ -78,7 +78,7 @@
     </div>
   </div>
 
-  <div class="col-sm-6 col-lg-4 element-item commercial creative">
+  <div class="col-sm-6 col-lg-4 element-item commercial creative narrative">
     <div class="content">
       <img class="img-fluid" src="./img/proyectos/g.jpg" alt="proyecto g">
       <div class="overlay transition">
