@@ -1,0 +1,142 @@
+/* Formulario */
+.contacto .formulario input,
+.contacto .formulario textarea {
+  border: none;
+  border-radius: 0;
+  border-bottom: solid 1px #b7b7b7;
+}
+
+.contacto .formulario label {
+  font-size: 0.85rem;
+  font-weight: 300;
+}
+
+.contacto .formulario #send {
+  background-color: #717171!important;
+  color: var(--secondary-color)!important;
+  float: right;
+  margin-bottom: 60px;
+  margin-top: 20px;
+  font-size: 0.9rem;
+}
+
+.contacto .formulario #send:hover {
+  background-color: var(--primary-color)!important;
+  color: var(--secondary-color)!important;
+  border-color: transparent!important;
+}
+/* Formulario end */
+
+/* Datos */
+.contacto .datos h1 {
+  text-transform: uppercase;
+}
+
+.contacto .datos {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 120px;
+  margin-bottom: 60px;
+}
+
+.contacto .datos .content_header {
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  border-bottom: solid 1px #b7b7b7;
+}
+
+.contacto .datos h1 {
+  font-size: 1.15rem;
+  font-weight: 400;
+}
+
+.contacto .datos p {
+  font-size: 0.95rem;
+  color: #717171;
+  font-weight: 300;
+}
+
+.contacto .datos .content_footer a span {
+  font-weight: 700;
+  color: var(--primary-color);
+}
+
+.contacto .datos .content_footer a {
+  color: #0119ff;
+}
+
+.contacto .datos .content_footer a:hover {
+  color: #717171;
+}
+
+.contacto .rebolucion_contact {
+  margin-top: 60px;
+}
+
+/* Datos end */
+
+/* MEDIA QUERIES */
+@media (min-width: 480px) {
+
+}
+
+@media (min-width: 576px) {
+
+}
+
+@media (min-width: 768px) {
+
+  /* Formulario */
+  .contacto {
+    margin-bottom: 50px;
+  }
+
+  .contacto .datos {
+    margin-top: 120px;
+    border-right: solid 1px #b7b7b7;
+  }
+
+  .contacto .formulario {
+    margin-top: 120px;
+  }
+
+  .contacto .formulario .label {
+    font-size: 1rem;
+  }
+  /* Formulario end */
+
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) {
+
+  /* Datos */
+  .contacto .datos,
+  .contacto .formulario {
+    margin-top: 200px;
+  }
+
+  .contacto .datos h1 {
+    font-size: 1.25rem;
+  }
+
+  .contacto .datos p {
+    font-size: 1rem;
+  }
+  /* Datos end */
+
+}
+
+@media (min-width: 1400px) {
+
+  /* Datos */
+  .contacto {
+    margin-bottom: 150px;
+  }
+  /* Datos end */
+
+}
