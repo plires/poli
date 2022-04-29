@@ -1,7 +1,7 @@
 <div data-aos="fade-up" class="row proyectos grid">
 
   <div class="col-sm-6 col-lg-4 element-item commercial">
-    <div class="content">
+    <div class="content container_projects">
       <img class="img-fluid" src="./img/proyectos/a.jpg" alt="proyecto a">
       <div class="overlay transition">
         <a class="link_to_project" href="#" data-bs-toggle="modal" data-bs-target="#proyecto-a">
@@ -14,7 +14,7 @@
   </div>
 
   <div class="col-sm-6 col-lg-4 element-item commercial">
-    <div class="content">
+    <div class="content container_projects">
       <img class="img-fluid" src="./img/proyectos/b.jpg" alt="proyecto b">
       <div class="overlay transition">
         <a class="link_to_project" href="#" data-bs-toggle="modal" data-bs-target="#proyecto-b">
@@ -27,7 +27,7 @@
   </div>
 
   <div class="col-sm-6 col-lg-4 element-item commercial creative">
-    <div class="content">
+    <div class="content container_projects">
       <img class="img-fluid" src="./img/proyectos/c.jpg" alt="proyecto c">
       <div class="overlay transition">
         <a class="link_to_project" href="#" data-bs-toggle="modal" data-bs-target="#proyecto-c">
@@ -40,7 +40,7 @@
   </div>
 
   <div class="col-sm-6 col-lg-4 element-item commercial">
-    <div class="content">
+    <div class="content container_projects">
       <img class="img-fluid" src="./img/proyectos/d.jpg" alt="proyecto d">
       <div class="overlay transition">
         <a class="link_to_project" href="#" data-bs-toggle="modal" data-bs-target="#proyecto-d">
@@ -53,7 +53,7 @@
   </div>
 
   <div class="col-sm-6 col-lg-4 element-item commercial">
-    <div class="content">
+    <div class="content container_projects">
       <img class="img-fluid" src="./img/proyectos/e.jpg" alt="proyecto e">
       <div class="overlay transition">
         <a class="link_to_project" href="#" data-bs-toggle="modal" data-bs-target="#proyecto-e">
@@ -66,7 +66,7 @@
   </div>
 
   <div class="col-sm-6 col-lg-4 element-item commercial creative">
-    <div class="content">
+    <div class="content container_projects">
       <img class="img-fluid" src="./img/proyectos/f.jpg" alt="proyecto f">
       <div class="overlay transition">
         <a class="link_to_project" href="#" data-bs-toggle="modal" data-bs-target="#proyecto-f">
@@ -79,7 +79,7 @@
   </div>
 
   <div class="col-sm-6 col-lg-4 element-item commercial creative narrative">
-    <div class="content">
+    <div class="content container_projects">
       <img class="img-fluid" src="./img/proyectos/g.jpg" alt="proyecto g">
       <div class="overlay transition">
         <a class="link_to_project" href="#" data-bs-toggle="modal" data-bs-target="#proyecto-g">
@@ -92,7 +92,7 @@
   </div>
 
   <div class="col-sm-6 col-lg-4 element-item commercial creative">
-    <div class="content">
+    <div class="content container_projects">
       <img class="img-fluid" src="./img/proyectos/h.jpg" alt="proyecto h">
       <div class="overlay transition">
         <a class="link_to_project" href="#" data-bs-toggle="modal" data-bs-target="#proyecto-h">
@@ -105,7 +105,7 @@
   </div>
 
   <div class="col-sm-6 col-lg-4 element-item commercial">
-    <div class="content">
+    <div class="content container_projects">
       <img class="img-fluid" src="./img/proyectos/i.jpg" alt="proyecto i">
       <div class="overlay transition">
         <a class="link_to_project" href="#" data-bs-toggle="modal" data-bs-target="#proyecto-i">
@@ -118,7 +118,7 @@
   </div>
 
   <div class="col-sm-6 col-lg-4 element-item narrative">
-    <div class="content">
+    <div class="content container_projects">
       <img class="img-fluid" src="./img/proyectos/j.jpg" alt="proyecto j">
       <div class="overlay transition">
         <a class="link_to_project" href="#" data-bs-toggle="modal" data-bs-target="#proyecto-j">
@@ -131,7 +131,7 @@
   </div>
 
   <!-- <div class="col-sm-6 col-lg-4 element-item narrative">
-    <div class="content">
+    <div class="content container_projects">
       <img class="img-fluid" src="./img/proyectos/k.jpg" alt="proyecto k">
       <div class="overlay transition">
         <a class="link_to_project" href="#" data-bs-toggle="modal" data-bs-target="#proyecto-k">
@@ -144,7 +144,7 @@
   </div> -->
 
   <div class="col-sm-6 col-lg-4 element-item creative">
-    <div class="content">
+    <div class="content container_projects">
       <img class="img-fluid" src="./img/proyectos/l.jpg" alt="proyecto l">
       <div class="overlay transition">
         <a class="link_to_project" href="#" data-bs-toggle="modal" data-bs-target="#proyecto-l">

@@ -3,7 +3,8 @@ $(document).ready(function() {
   const header = document.getElementsByTagName("header")[0]
   const categories = document.getElementById('categories')
   const projects = document.getElementsByClassName("link_to_project");
-  
+  const containerProjects = document.getElementsByClassName("container_projects");
+
   function showlHeader() {
     header.classList.add('background')
   }
@@ -49,6 +50,13 @@ $(document).ready(function() {
           var video = div.getElementsByTagName("iframe")[index].contentWindow
           video.postMessage('{"method":"pause"}', '*')
           
+        })
+
+        Array.from(containerProjects).forEach(containerProject => {
+          containerProject.style.overflow = 'visible';
+          setInterval(function () {
+            containerProject.style.overflow = 'hidden';
+          }, 1000);
         })
 
       })
