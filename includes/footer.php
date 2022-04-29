@@ -12,6 +12,11 @@
             target="_blank" 
             href="mailto:<?= EMAIL_CLIENT ?>"><i class="transition fa-solid fa-envelope"></i>
           </a>
+          <a 
+            rel="noopener" 
+            target="_blank" 
+            href="<?= RRSS_INSTAGRAM ?>"><i class="transition fa-brands fa-instagram-square"></i>
+          </a>
         </div>
       </div>
       <!-- Datos -->
