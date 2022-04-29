@@ -65,14 +65,9 @@ use PHPMailer\PHPMailer\Exception;
       
       //configuro las variables a remplazar en el template
       $vars = array(
-        '{facebook}',
         '{instagram}',
-        '{linkedin}',
-        '{whatsapp}',
         '{name_client}',
         '{email_client}',
-        '{tel_client}',
-        '{wap_client}',
         '{origin}',
         '{name_user}',
         '{last_name_user}',
@@ -84,14 +79,9 @@ use PHPMailer\PHPMailer\Exception;
       );
 
       $values = array( 
-        RRSS_FACEBOOK,
         RRSS_INSTAGRAM,
-        RRSS_LINKEDIN,
-        WHATSAPP,
         NAME_CLIENT,
         EMAIL_CLIENT,
-        TEL_CLIENT,
-        WAP_CLIENT,
         $post['origin'],
         $post['name'],
         $post['last_name'],

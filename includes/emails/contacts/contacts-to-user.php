@@ -404,22 +404,10 @@
           <tr align="center" style="background-color: #000000;">
               <td align="center"  style="background-color: #000000;padding: 10px;">
                 
-                <a target="_blank" rel="noopener noreferrer" href="{facebook}">
-                  <img src="https://pablogranade.com/img/emails/facebook.png" style="margin:0; margin-right: 20px; padding:0; border:none; display:inline-block; width: 16px; height: auto;" border="0" alt="facebook" />
-                </a>
-
                 <a target="_blank" rel="noopener noreferrer" href="{instagram}">
                   <img src="https://pablogranade.com/img/emails/instagram.png" style="margin:0; margin-right: 20px; padding:0; border:none; display:inline-block; width: 16px; height: auto;" border="0" alt="instagram" />
                 </a>
 
-                <a 
-                  href="https://web.whatsapp.com/send?phone=+{whatsapp}&text=Hola%20Pablo,%20Necesito%20hacer%20una%20consulta...%20" 
-                  target="_blank" 
-                  rel="noopener"
-                  >
-                  <img src="https://pablogranade.com/img/emails/whatsapp.png" style="margin:0; padding:0; border:none; display:inline-block; width: 16px; height: auto;" border="0" alt="whatsapp" />
-                </a>
-                  
               </td>
           </tr>
           <!-- Footer : END -->
