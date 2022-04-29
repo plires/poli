@@ -30,11 +30,6 @@
 		          <a 
 		          	rel="noopener" 
 		          	target="_blank" 
-		          	href="<?= RRSS_LINKEDIN ?>"><i class="transition fa-brands fa-linkedin"></i>
-		          </a>
-		          <a 
-		          	rel="noopener" 
-		          	target="_blank" 
 		          	href="https://web.whatsapp.com/send?phone=+<?= WHATSAPP ?>&text=Hola%20Superfil,%20Necesito%20hacer%20una%20consulta...%20"><i class="transition fa-brands fa-whatsapp-square"></i>
 		          </a>
 		        </div>
