@@ -70,8 +70,11 @@
 		include_once("./includes/proyectos-modal/proyecto-h.php");
 		include_once("./includes/proyectos-modal/proyecto-i.php");
 		include_once("./includes/proyectos-modal/proyecto-j.php");
-		// include_once("./includes/proyectos-modal/proyecto-k.php");
+		include_once("./includes/proyectos-modal/proyecto-k.php");
 		include_once("./includes/proyectos-modal/proyecto-l.php");
+		include_once("./includes/proyectos-modal/proyecto-fernet.php");
+		include_once("./includes/proyectos-modal/proyecto-halls.php");
+		include_once("./includes/proyectos-modal/proyecto-powerade.php");
 	?>
 
 	<!-- Footer -->

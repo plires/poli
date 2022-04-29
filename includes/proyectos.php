@@ -91,6 +91,32 @@
     </div>
   </div>
 
+  <div class="col-sm-6 col-lg-4 element-item commercial">
+    <div class="content container_projects">
+      <img class="img-fluid" src="./img/proyectos/fernet.jpg" alt="proyecto fernet">
+      <div class="overlay transition">
+        <a class="link_to_project" href="#" data-bs-toggle="modal" data-bs-target="#proyecto-fernet">
+          <h2>Fernet Branca</h2>
+          <h3>Volver</h3>
+          <button class="btn btn-primary btn_mobile">ver más</button>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-lg-4 element-item creative">
+    <div class="content container_projects">
+      <img class="img-fluid" src="./img/proyectos/halls.jpg" alt="proyecto halls">
+      <div class="overlay transition">
+        <a class="link_to_project" href="#" data-bs-toggle="modal" data-bs-target="#proyecto-halls">
+          <h2>Halls</h2>
+          <h3>Cambia el aire</h3>
+          <button class="btn btn-primary btn_mobile">ver más</button>
+        </a>
+      </div>
+    </div>
+  </div>
+
   <div class="col-sm-6 col-lg-4 element-item commercial creative">
     <div class="content container_projects">
       <img class="img-fluid" src="./img/proyectos/h.jpg" alt="proyecto h">
@@ -130,7 +156,7 @@
     </div>
   </div>
 
-  <!-- <div class="col-sm-6 col-lg-4 element-item narrative">
+  <div class="col-sm-6 col-lg-4 element-item narrative">
     <div class="content container_projects">
       <img class="img-fluid" src="./img/proyectos/k.jpg" alt="proyecto k">
       <div class="overlay transition">
@@ -141,7 +167,7 @@
         </a>
       </div>
     </div>
-  </div> -->
+  </div>
 
   <div class="col-sm-6 col-lg-4 element-item creative">
     <div class="content container_projects">
@@ -156,4 +182,17 @@
     </div>
   </div>
 
+  <div class="col-sm-6 col-lg-4 element-item creative">
+    <div class="content container_projects">
+      <img class="img-fluid" src="./img/proyectos/powerade.jpg" alt="proyecto powerade">
+      <div class="overlay transition">
+        <a class="link_to_project" href="#" data-bs-toggle="modal" data-bs-target="#proyecto-powerade">
+          <h2>Powerade</h2>
+          <h3>Rutina</h3>
+          <button class="btn btn-primary btn_mobile">ver más</button>
+        </a>
+      </div>
+    </div>
+  </div>
+  
 </div>
