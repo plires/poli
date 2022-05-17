@@ -37,7 +37,7 @@
   flex-direction: column;
   justify-content: space-between;
   margin-top: 120px;
-  margin-bottom: 60px;
+  margin-bottom: 30px;
 }
 
 .contacto .datos .content_header {
@@ -47,12 +47,12 @@
 }
 
 .contacto .datos h1 {
-  font-size: 1.15rem;
+  font-size: 1.4rem;
   font-weight: 400;
 }
 
 .contacto .datos p {
-  font-size: 0.95rem;
+  font-size: 1.25rem;
   color: #717171;
   font-weight: 300;
 }
@@ -92,13 +92,8 @@
     margin-bottom: 50px;
   }
 
-  .contacto .datos {
-    margin-top: 120px;
-    border-right: solid 1px #b7b7b7;
-  }
-
   .contacto .formulario {
-    margin-top: 120px;
+    margin-top: 30px;
   }
 
   .contacto .formulario .label {
@@ -110,22 +105,24 @@
 
 @media (min-width: 992px) {
 
+  /* Datos */
+  .contacto .datos h1 {
+    font-size: 1.75rem;
+    margin-bottom: 60px;
+  }
+
+  .contacto .datos p {
+    font-size: 1.5rem;
+  }
+  /* Datos end */
+
 }
 
 @media (min-width: 1200px) {
 
   /* Datos */
-  .contacto .datos,
   .contacto .formulario {
-    margin-top: 200px;
-  }
-
-  .contacto .datos h1 {
-    font-size: 1.25rem;
-  }
-
-  .contacto .datos p {
-    font-size: 1rem;
+    margin-top: 60px;
   }
   /* Datos end */
 
@@ -136,6 +133,10 @@
   /* Datos */
   .contacto {
     margin-bottom: 150px;
+  }
+
+  .contacto .formulario {
+    margin-top: 100px;
   }
   /* Datos end */
 

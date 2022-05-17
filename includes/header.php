@@ -39,7 +39,7 @@
 
 								<li>
 									<?php $res = $current == 'contact' ? 'active' : ''; ?>
-									<a class="<?= $res ?> transition" href="./contact.php">Contact</a>
+									<a class="<?= $res ?> transition" href="./contact.php">About</a>
 								</li>
 
 							</ul>

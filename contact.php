@@ -78,47 +78,27 @@
 			<!-- Contacto -->
 			<div class="row contacto">
 
-				<div class="col-md-4 col-lg-3 datos">
+				<div class="col-md-12 datos">
 
 					<div data-aos="fade-up" class="content_header">
-						<h1>Pablo granadé</h1>
-						<p>
-							I’ve been working in the advertisment industry fot the last 15 years. 
-						</p>
-						<p>
-							I started as a Creative Art Director and worked in agencies like Grey, DDB, JWT, El Cielo (From Agulla y Baccetti). After 9 years I began another journey filming documentaries and working as a freelance creative.
-						</p>
-						<p>
-							Nowadays, I also work as a commercial and film director, represented by Rebolucion.
-						</p>	
-					</div>
+						<h1>About Me</h1>
 
-					<div data-aos="fade-up" class="content_footer">
-						<a 
-							class="transition" 
-							rel="noopener" 
-							target="_blank" 
-							href="tel:5491149732844"><span>Phone number /</span> +54 911 4973 2844
-						</a> <br>
-						<a 
-							class="transition" 
-							rel="noopener" 
-							target="_blank" 
-							href="mailto:pablogranade@gmail.com"><span>E-mail /</span> pablogranade@gmail.com
-						</a> <br>
-						<a 
-							class="transition" 
-							rel="noopener" 
-							target="_blank" 
-							href="http://www.rebolucion.com/">
-							<img class="img-fluid rebolucion_contact transition" src="./img/rebolucion-contact.png" alt="rebolucion contacto"> <br>
-							Rep.latam: Rebolucion
-						</a>
+						<p>
+							I´ve been working in the advertisement industry for the last 15 years. I started as a Creative Art Director and worked in agencies
+						</p>
+						<p>
+							like Grey, DDB, JWT and El Cielo from Agulla y Baccetti. After some international awards, 9 years, and some courage, I began another journey filming documentaries, video clips and fashion films.	
+						</p>
+
+						<p>
+							Nowadays I'm an award winning film director represented by Rebolucion, and a freelancer creative.	
+						</p>
+						
 					</div>
 
 				</div>
 
-				<div class="col-md-7 offset-md-1 col-lg-8 offset-lg-1 formulario">
+				<div class="col-md-12 col-lg-10 offset-lg-1 formulario">
 
 					<!-- Mensaje Exito -->
 		      <?php if (isset($msg_contacto)): ?>
