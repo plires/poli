@@ -37,10 +37,10 @@
 				<!-- <div class="col-6 col-sm-3">
 					<button data-filter="*" class="btn btn-primary btn-category active">ALL</button>
 				</div> -->
-				<div class="col-6 col-sm-3">
+				<div class="col-6 col-md-3">
 					<button data-filter=".commercial" class="btn btn-primary btn-category">DIRECTOR</button>
 				</div>
-				<div class="col-6 col-sm-3">
+				<div class="col-6 col-md-3">
 					<button data-filter=".creative" class="btn btn-primary btn-category">CREATIVE &amp; SCRIPT</button>
 				</div>
 				<!-- <div class="col-6 col-sm-3">
