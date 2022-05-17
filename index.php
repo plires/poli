@@ -34,18 +34,18 @@
 
 			<!-- Categorías -->
 			<div id="categories" class="row categorias transition filter-button-group">
-				<div class="col-6 col-sm-3">
+				<!-- <div class="col-6 col-sm-3">
 					<button data-filter="*" class="btn btn-primary btn-category active">ALL</button>
+				</div> -->
+				<div class="col-6 col-sm-3">
+					<button data-filter=".commercial" class="btn btn-primary btn-category">DIRECTOR</button>
 				</div>
 				<div class="col-6 col-sm-3">
-					<button data-filter=".commercial" class="btn btn-primary btn-category">COMMERCIAL</button>
+					<button data-filter=".creative" class="btn btn-primary btn-category">CREATIVE &amp; SCRIPT</button>
 				</div>
-				<div class="col-6 col-sm-3">
-					<button data-filter=".creative" class="btn btn-primary btn-category">CREATIVE</button>
-				</div>
-				<div class="col-6 col-sm-3">
+				<!-- <div class="col-6 col-sm-3">
 					<button data-filter=".narrative" class="btn btn-primary btn-category">NARRATIVE</button>
-				</div>
+				</div> -->
 			</div>
 			
 			<!-- Categorías end -->
