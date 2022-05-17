@@ -53,14 +53,14 @@
 .home .proyectos .content .overlay h2 {
 	color: var(--primary-color);
 	font-weight: 400;
-	font-size: 1.5rem;
+	font-size: 1.2rem;
 	text-transform: uppercase;
 }
 
 .home .proyectos .content .overlay h3 {
 	color: var(--primary-color);
 	font-weight: 300;
-	font-size: 1.25rem;
+	font-size: 1rem;
 	text-transform: uppercase;
 }
 
@@ -213,6 +213,11 @@
 }
 
 @media (min-width: 992px) {
+
+	.home .row > * {
+		padding-right: 5px!important;
+		padding-left: 5px!important;
+	}
 
 	/* Proyecto Individual */
 	.proyecto_individual .modal-body .btn-close {
