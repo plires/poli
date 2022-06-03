@@ -71,6 +71,9 @@ $(document).ready(function() {
     stagger: 30,
     transitionDuration: 400
   });
+
+  $grid.isotope({ filter: '.commercial' });
+
   // filter items on button click
   $('.filter-button-group').on( 'click', 'button', function() {
     var filterValue = $(this).attr('data-filter');
