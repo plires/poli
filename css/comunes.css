@@ -365,6 +365,10 @@ footer .navegacion a {
   margin-bottom: 15px;
 }
 
+footer .navegacion a:first-child {
+  margin-bottom: 0;
+}
+
 footer .firmas {
   display: flex;
   flex-direction: column;

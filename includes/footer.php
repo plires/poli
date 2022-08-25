@@ -24,12 +24,12 @@
       <!-- Navegacion -->
       <div class="navegacion col-md-5">
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-md-6 filter-button-group">
             <a class="transition" href="./">
-              <span>Work</span><br>
-              Commercial<br> 
-              Creative<br>
-              Narrative
+              Director
+            </a> <br>
+            <a class="transition" href="./">
+              Creative & Script
             </a>
           </div>
           <div class="col-md-6">

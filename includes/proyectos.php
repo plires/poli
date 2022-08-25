@@ -67,6 +67,19 @@
 
   <div class="col-sm-6 col-lg-4 element-item commercial">
     <div class="content container_projects">
+      <img class="img-fluid" src="./img/proyectos/visa.jpg" alt="proyecto visa">
+      <div class="overlay transition">
+        <a class="link_to_project" href="#" data-bs-toggle="modal" data-bs-target="#proyecto-visa">
+          <h2>Campaña Visa</h2>
+          <h3>Visa</h3>
+          <button class="btn btn-primary btn_mobile">ver más</button>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-lg-4 element-item commercial">
+    <div class="content container_projects">
       <img class="img-fluid" src="./img/proyectos/b.jpg" alt="proyecto b">
       <div class="overlay transition">
         <a class="link_to_project" href="#" data-bs-toggle="modal" data-bs-target="#proyecto-b">

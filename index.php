@@ -75,6 +75,7 @@
 		include_once("./includes/proyectos-modal/proyecto-fernet.php");
 		include_once("./includes/proyectos-modal/proyecto-halls.php");
 		include_once("./includes/proyectos-modal/proyecto-powerade.php");
+		include_once("./includes/proyectos-modal/proyecto-visa.php");
 	?>
 
 	<!-- Footer -->
