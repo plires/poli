@@ -76,6 +76,7 @@
 		include_once("./includes/proyectos-modal/proyecto-halls.php");
 		include_once("./includes/proyectos-modal/proyecto-powerade.php");
 		include_once("./includes/proyectos-modal/proyecto-visa.php");
+		include_once("./includes/proyectos-modal/proyecto-comercial-claro.php");
 	?>
 
 	<!-- Footer -->

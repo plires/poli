@@ -104,6 +104,19 @@
     </div>
   </div>
 
+  <div class="col-sm-6 col-lg-4 element-item commercial">
+    <div class="content container_projects">
+      <img class="img-fluid" src="./img/proyectos/claro.jpg" alt="proyecto claro">
+      <div class="overlay transition">
+        <a class="link_to_project" href="#" data-bs-toggle="modal" data-bs-target="#proyecto-claro">
+          <h2>Claro</h2>
+          <h3>Telemedicina</h3>
+          <button class="btn btn-primary btn_mobile">ver más</button>
+        </a>
+      </div>
+    </div>
+  </div>
+
   <div class="col-sm-6 col-lg-4 element-item creative">
     <div class="content container_projects">
       <img class="img-fluid" src="./img/proyectos/halls.jpg" alt="proyecto halls">
@@ -143,6 +156,19 @@
     </div>
   </div>
 
+  <div class="col-sm-6 col-lg-4 element-item creative commercial">
+    <div class="content container_projects">
+      <img class="img-fluid" src="./img/proyectos/j.jpg" alt="proyecto j">
+      <div class="overlay transition">
+        <a class="link_to_project" href="#" data-bs-toggle="modal" data-bs-target="#proyecto-j">
+          <h2>Padres</h2>
+          <h3>Trailer</h3>
+          <button class="btn btn-primary btn_mobile">ver más</button>
+        </a>
+      </div>
+    </div>
+  </div>
+
   <div class="col-sm-6 col-lg-4 element-item commercial">
     <div class="content container_projects">
       <img class="img-fluid" src="./img/proyectos/a.jpg" alt="proyecto a">
@@ -163,19 +189,6 @@
         <a class="link_to_project" href="#" data-bs-toggle="modal" data-bs-target="#proyecto-h">
           <h2>Peugeot</h2>
           <h3>Summer PDE ´18</h3>
-          <button class="btn btn-primary btn_mobile">ver más</button>
-        </a>
-      </div>
-    </div>
-  </div>
-
-  <div class="col-sm-6 col-lg-4 element-item creative">
-    <div class="content container_projects">
-      <img class="img-fluid" src="./img/proyectos/j.jpg" alt="proyecto j">
-      <div class="overlay transition">
-        <a class="link_to_project" href="#" data-bs-toggle="modal" data-bs-target="#proyecto-j">
-          <h2>Padres</h2>
-          <h3>Trailer</h3>
           <button class="btn btn-primary btn_mobile">ver más</button>
         </a>
       </div>
