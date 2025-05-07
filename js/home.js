@@ -31,31 +31,31 @@ document.addEventListener("DOMContentLoaded", function () {
     categories.classList.remove("fixed");
   }
 
-  // Funciones para capturar proyectos y pausar videos al cerrar el modal
-  // Array.from(projects).forEach((project) => {
-  //   project.addEventListener("click", function (e) {
-  //     var projectActual = project.getAttribute("data-bs-target");
+  const videoModal = document.getElementById("videoModal");
 
-  //     $(projectActual).on("hidden.bs.modal", function (e) {
-  //       let projectSinHashtag = projectActual.slice(1);
+  // Función para carga diferida de videos
+  videoModal.addEventListener("show.bs.modal", (event) => {
+    const button = event.relatedTarget;
+    const videoId = button.getAttribute("data-video-id");
+    const hash = button.getAttribute("data-hash");
 
-  //       var div = document.getElementById(projectSinHashtag);
-  //       var iframes = div.getElementsByTagName("iframe");
+    const iframe = document.createElement("iframe");
+    iframe.src = `https://player.vimeo.com/video/${videoId}?h=${hash}&autoplay=1`;
+    iframe.setAttribute("frameborder", "0");
+    iframe.setAttribute("allow", "autoplay; fullscreen; picture-in-picture");
+    iframe.setAttribute("allowfullscreen", "");
+    iframe.style.position = "absolute";
+    iframe.style.top = 0;
+    iframe.style.left = 0;
+    iframe.style.width = "100%";
+    iframe.style.height = "100%";
 
-  //       Array.from(iframes).forEach(function callback(iframe, index) {
-  //         var video = div.getElementsByTagName("iframe")[index].contentWindow;
-  //         video.postMessage('{"method":"pause"}', "*");
-  //       });
+    document.getElementById("modal-video-container").appendChild(iframe);
+  });
 
-  //       Array.from(containerProjects).forEach((containerProject) => {
-  //         containerProject.style.overflow = "visible";
-  //         setInterval(function () {
-  //           containerProject.style.overflow = "hidden";
-  //         }, 1000);
-  //       });
-  //     });
-  //   });
-  // });
+  videoModal.addEventListener("hidden.bs.modal", () => {
+    document.getElementById("modal-video-container").innerHTML = "";
+  });
 
   // init Isotope (plugin de filtrado de categorias)
   var $grid = $(".grid").isotope({

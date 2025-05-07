@@ -81,36 +81,6 @@ $current = 'work';
 	<script type="text/javascript" src="./js/app.js"></script>
 	<script type="text/javascript" src="./js/home.js"></script>
 
-	<script>
-		const videoModal = document.getElementById("videoModal");
-
-		videoModal.addEventListener("show.bs.modal", (event) => {
-			const button = event.relatedTarget;
-			const videoId = button.getAttribute("data-video-id");
-			const hash = button.getAttribute("data-hash");
-
-			const iframe = document.createElement("iframe");
-			iframe.src = `https://player.vimeo.com/video/${videoId}?h=${hash}&autoplay=1`;
-			iframe.setAttribute("frameborder", "0");
-			iframe.setAttribute(
-				"allow",
-				"autoplay; fullscreen; picture-in-picture"
-			);
-			iframe.setAttribute("allowfullscreen", "");
-			iframe.style.position = "absolute";
-			iframe.style.top = 0;
-			iframe.style.left = 0;
-			iframe.style.width = "100%";
-			iframe.style.height = "100%";
-
-			document.getElementById("modal-video-container").appendChild(iframe);
-		});
-
-		videoModal.addEventListener("hidden.bs.modal", () => {
-			document.getElementById("modal-video-container").innerHTML = "";
-		});
-	</script>
-
 </body>
 
 </html>
