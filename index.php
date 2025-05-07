@@ -77,6 +77,9 @@
 		include_once("./includes/proyectos-modal/proyecto-powerade.php");
 		include_once("./includes/proyectos-modal/proyecto-visa.php");
 		include_once("./includes/proyectos-modal/proyecto-comercial-claro.php");
+		include_once("./includes/proyectos-modal/proyecto-dtv-lo-tienes-todo.php");
+		include_once("./includes/proyectos-modal/proyecto-pepsi-seriadas.php");
+		include_once("./includes/proyectos-modal/proyecto-netflix-division-palermo.php");
 	?>
 
 	<!-- Footer -->

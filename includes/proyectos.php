@@ -1,5 +1,44 @@
 <div data-aos="fade-up" class="row proyectos grid">
 
+  <div class="col-sm-6 col-lg-4 element-item commercial">
+    <div class="content container_projects">
+      <img class="img-fluid" src="./img/proyectos/dtv.jpg" alt="proyecto dtv">
+      <div class="overlay transition">
+        <a class="link_to_project" href="#" data-bs-toggle="modal" data-bs-target="#dtv-lo-tienes-todo">
+          <h2>DIRECTV</h2>
+          <h3>TIENES TODO</h3>
+          <button class="btn btn-primary btn_mobile">ver más</button>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-lg-4 element-item commercial">
+    <div class="content container_projects">
+      <img class="img-fluid" src="./img/proyectos/pepsi-seriadas.jpg" alt="proyecto pepsi seriadas">
+      <div class="overlay transition">
+        <a class="link_to_project" href="#" data-bs-toggle="modal" data-bs-target="#pepsi-seriadas">
+          <h2>PEPSI</h2>
+          <h3>SERIADAS</h3>
+          <button class="btn btn-primary btn_mobile">ver más</button>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-lg-4 element-item commercial">
+    <div class="content container_projects">
+      <img class="img-fluid" src="./img/proyectos/netflix-division-palermo.jpg" alt="proyecto netflix division palermo">
+      <div class="overlay transition">
+        <a class="link_to_project" href="#" data-bs-toggle="modal" data-bs-target="#division-palermo">
+          <h2>NETFLIX</h2>
+          <h3>DIVISIÓN PALERMO</h3>
+          <button class="btn btn-primary btn_mobile">ver más</button>
+        </a>
+      </div>
+    </div>
+  </div>
+
   <div class="col-sm-6 col-lg-4 element-item commercial creative">
     <div class="content container_projects">
       <img class="img-fluid" src="./img/proyectos/c.jpg" alt="proyecto c">
