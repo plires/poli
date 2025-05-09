@@ -17,7 +17,6 @@
 }
 
 .home .proyectos .content:hover {
-  cursor: pointer;
   box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.1);
   overflow: hidden;
 }
@@ -37,7 +36,7 @@
   opacity: 0;
 }
 
-.home .proyectos .content .overlay a {
+.home .proyectos .content .overlay .link_to_project {
   display: inline-block;
   width: 100%;
   height: 100%;
@@ -63,26 +62,10 @@
   text-transform: uppercase;
 }
 
-.home .proyectos .content .overlay .btn_mobile {
-  font-size: 0.75rem;
-  text-transform: uppercase !important;
-  border-color: var(--primary-color) !important;
-  margin: 20px auto 0 auto;
-  display: none;
-}
-
-.home .proyectos .content .overlay .btn_mobile:hover {
-  background-color: #717171 !important;
-  color: var(--secondary-color) !important;
-  border-color: #717171 !important;
-}
-
 .element-item .contentSpan {
-  position: absolute;
-  bottom: 5px;
-  right: 5px;
+  padding-top: 10px;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .element-item span {
@@ -96,7 +79,10 @@
   color: black;
   font-size: 14px;
   padding: 3px 10px;
-  margin-bottom: 5px;
+  margin-right: 5px;
+  cursor: pointer;
+  text-align: center;
+  margin-bottom: 10px;
 }
 
 .element-item span:hover {
@@ -117,8 +103,8 @@
     margin-bottom: calc(var(--bs-gutter-x) * 1);
   }
 
-  .home .proyectos .content .overlay .btn_mobile {
-    display: none;
+  .home .proyectos .content .overlay .link_to_project {
+    padding: 20px 20px 20px 5px;
   }
 
   .element-item span {
@@ -133,6 +119,10 @@
   .home .proyectos {
     min-height: 67vh;
     margin-bottom: 50px;
+  }
+
+  .home .proyectos .content .overlay .link_to_project {
+    padding: 20px;
   }
 
   .element-item span {
