@@ -29,7 +29,6 @@
 }
 
 .home .proyectos .content .overlay {
-  background: red;
   position: absolute;
   bottom: -100%;
   left: 0;
