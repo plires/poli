@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const hash = button.getAttribute("data-hash");
 
     const iframe = document.createElement("iframe");
-    iframe.src = `https://player.vimeo.com/video/${videoId}?h=${hash}&autoplay=1`;
+    iframe.src = `https://player.vimeo.com/video/${videoId}?h=${hash}`;
     iframe.setAttribute("frameborder", "0");
     iframe.setAttribute("allow", "autoplay; fullscreen; picture-in-picture");
     iframe.setAttribute("allowfullscreen", "");
