@@ -6,7 +6,7 @@
       <div class="overlay transition">
         <a class="link_to_project" href="#" data-bs-toggle="modal"
           data-bs-target="#videoModal"
-          data-video-id="567651672"
+          data-video-id="1067844904"
           data-hash="9a9d429b54">
           <h2>DIRECTV</h2>
           <h3>TIENES TODO</h3>
@@ -70,10 +70,30 @@
       <div class="overlay transition">
         <a class="link_to_project" href="#" data-bs-toggle="modal"
           data-bs-target="#videoModal"
-          data-video-id="567644056"
-          data-hash="c8abd41c3d">
+          data-video-id="567651672"
+          data-hash="9a9d429b54">
           <h2>Mac Cosmetics</h2>
           <h3>Mac For all</h3>
+          <div class="contentSpan">
+            <span
+              class="transition"
+              data-bs-toggle="modal"
+              data-bs-target="#videoModal"
+              data-video-id="567643374"
+              data-hash="c445b68ca9">Ver video 2</span>
+            <span
+              class="transition"
+              data-bs-toggle="modal"
+              data-bs-target="#videoModal"
+              data-video-id="567643658"
+              data-hash="ffe82efaed">Ver video 3</span>
+            <span
+              class="transition"
+              data-bs-toggle="modal"
+              data-bs-target="#videoModal"
+              data-video-id="567643988"
+              data-hash="a98be65cb2">Ver video 4</span>
+          </div>
           <button class="btn btn-primary btn_mobile">ver más</button>
         </a>
       </div>
