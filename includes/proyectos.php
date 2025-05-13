@@ -352,44 +352,6 @@
     </div>
   </div>
 
-  <div class="col-sm-6 col-lg-4 element-item commercial">
-    <div class="content container_projects">
-      <img class="img-fluid" src="./img/proyectos/a.jpg" alt="BATALLAS DE NAVIDAD">
-      <div class="overlay transition">
-        <div class="link_to_project">
-          <h2>PEPSI</h2>
-          <h3>BATALLAS DE NAVIDAD</h3>
-          <div class="contentSpan">
-            <span
-              class="transition"
-              data-bs-toggle="modal"
-              data-bs-target="#videoModal"
-              data-video-id="680545495"
-              data-hash="6e182e51ff">Ver video 1</span>
-            <span
-              class="transition"
-              data-bs-toggle="modal"
-              data-bs-target="#videoModal"
-              data-video-id="680542776"
-              data-hash="845d37a400">Ver video 2</span>
-            <span
-              class="transition"
-              data-bs-toggle="modal"
-              data-bs-target="#videoModal"
-              data-video-id="680543781"
-              data-hash="fbe6569d95">Ver video 3</span>
-            <span
-              class="transition"
-              data-bs-toggle="modal"
-              data-bs-target="#videoModal"
-              data-video-id="680544604"
-              data-hash="08685aaebd">Ver video 4</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
   <div class="col-sm-6 col-lg-4 element-item commercial creative">
     <div class="content container_projects">
       <img class="img-fluid" src="./img/proyectos/h.jpg" alt="Peugeot">
@@ -414,7 +376,7 @@
       <div class="overlay transition">
         <div class="link_to_project">
           <h2>Fastock</h2>
-          <h3>Trailer</h3>
+          <h3>short film</h3>
           <span
             class="transition"
             data-bs-toggle="modal"
