@@ -340,7 +340,7 @@
       <div class="overlay transition">
         <div class="link_to_project">
           <h2>Padres</h2>
-          <h3>Trailer</h3>
+          <h3>short film</h3>
           <span
             class="transition"
             data-bs-toggle="modal"
@@ -376,7 +376,7 @@
       <div class="overlay transition">
         <div class="link_to_project">
           <h2>Fastock</h2>
-          <h3>short film</h3>
+          <h3>Trailer</h3>
           <span
             class="transition"
             data-bs-toggle="modal"
